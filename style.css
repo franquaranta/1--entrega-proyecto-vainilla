@@ -1,0 +1,129 @@
+
+body{
+    background-image: url(fondo2.png);
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed;
+    height: 100%;
+}
+header{
+    margin-top: 0px;
+    position:relative;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 20px 20px;
+    background-color: #5c4938;
+    a{
+        font-weight: bold; 
+        color: rgb(17, 16, 16);
+        text-decoration: none; /* Elimina el subrayado del enlace */
+        margin-left: 550px
+    }
+    a:hover {
+        color: #000; /* Cambia el color del texto al pasar el mouse */
+        text-decoration: underline; /* Añade subrayado al pasar el mouse */
+    }
+
+}
+
+
+main {
+    padding: 20px; /* Ajusta el padding si es necesario */
+    max-width: 800px; /* Ajusta el ancho máximo del contenedor si es necesario */
+    width: 100%; /* Asegura que el main ocupe todo el ancho disponible */
+    box-sizing:content-box;
+
+    h1 {
+        margin-bottom: 0px; /* Espacio debajo del título */
+        margin-top: 170px;
+    }
+    p {
+        margin-bottom: 10px; /* Espacio debajo del párrafo */
+        line-height: 1.3; /* Altura de la línea para mejorar la legibilidad */
+        text-align: center; /* Alinea el texto a la izquierda */
+        margin-bottom: 30px;
+    }
+}
+
+footer {
+    background-color: #5c4938;
+    padding: 20px; /* Ajusta el padding del footer si es necesario */
+    margin-top: 80px;
+    
+    div {
+        display: flex; /* Usa flexbox para alinear los párrafos en línea */
+        justify-content: space-between; /* Espacio entre los párrafos */
+        align-items: center; /* Alinea los párrafos verticalmente al centro */
+    }
+    p {
+        margin: 0; /* Elimina márgenes de los párrafos */
+        padding: 0 10px; /* Espacio horizontal entre los párrafos */
+    }
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
+.boton-borde {
+    display: inline-block; /* Asegura que el botón se comporte como un botón en línea */
+    padding: 10px 20px; /* Ajusta el padding del botón */
+    border: 2px solid #000; /* Ajusta el borde del botón */
+    background-color: transparent; /* Fondo transparente para el botón */
+    color: #000; /* Color del texto del botón */
+    text-decoration: none; /* Elimina el subrayado del enlace en el botón */
+    cursor: pointer; /* Cambia el cursor a una mano al pasar sobre el botón */
+    width: 450px;
+}
+
+/* Efecto hover */
+.boton-borde:hover {
+    background-color: #6d5641; /* Cambia el fondo a negro */
+    color: #fff; /* Cambia el color del texto a blanco */
+}
+
+#carpeta-de-fotos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.cookies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 60px 60px;
+    flex-basis: 200px;
+    flex-grow: 1;
+    margin-bottom: 1rem;
+    transition: 200ms;
+    box-shadow: 0px 0px 2px 2px rgb(56, 54, 54);
+    background-color: #6d5444;
+    
+}
+
+img{
+    max-width: 225px;
+    max-height: 225px;
+     
+  }
+
+.intro{
+    text-align: left;
+}
+
+h2{
+    text-align: center;
+}
+
+
+
+
