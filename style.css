@@ -165,6 +165,7 @@ button:hover {
     margin-top: 20px;
     color: rgb(0, 0, 0);
     font-weight: bold;
+    display: none;
 }
 
 
