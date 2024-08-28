@@ -9,9 +9,12 @@
 </head>
 <body>
     <header>
-        <div>
+        <a href="index.html" >Volver al incio</a>
+        <div class="derecha">
             <a href="" target="_blank"></a>
-            <a href="index.html" >Volver al incio</a>
+            <a href="">Ordene aquí! /</a>
+            <a href="">Sobre nosotros /</a>
+            <a href="">Contactanos</a>
         </div>
     </header>
     <main>
@@ -45,8 +48,18 @@
         <section class="cookies">
             <h3>RED VELVET</h3>
             <img src="imagenes.img/f6.jpg" alt="Red velvet">
-            <p>Galleta red velvet con chips de chocolate blanc</p>
-        </section>   
+            <p>Galleta red velvet con chips de chocolate blanco</p>
+        </section>  
+
+        <form id="propuesta-form">
+            <label for="sabor">Dejanos tu propuesta para nuevos sabores:</label>
+            <input type="text" id="sabor" name="sabor" placeholder="Escribe tu propuesta"><br>
+            <button type="submit">Enviar</button>
+        </form>
+        
+        <div id="mensaje-exito" style="display:none;">
+            ¡Gracias por tu propuesta! La hemos recibido.
+        </div> 
     </main>
     <footer>
         <div>

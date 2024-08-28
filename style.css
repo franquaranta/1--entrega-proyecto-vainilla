@@ -14,51 +14,58 @@ header{
     align-items:center;
     padding: 20px 20px;
     background-color: #5c4938;
+    margin: 0;
     a{
         font-weight: bold; 
         color: rgb(17, 16, 16);
-        text-decoration: none; /* Elimina el subrayado del enlace */
-        margin-left: 550px
+        text-decoration: none; 
+        margin-left: 2px;
+        display: inline-block
     }
     a:hover {
-        color: #000; /* Cambia el color del texto al pasar el mouse */
-        text-decoration: underline; /* Añade subrayado al pasar el mouse */
+        color: #000; 
+        text-decoration: underline; 
     }
 
 }
 
+.derecha{
+    margin-left: auto;
+    display: flex;
+}
+
 
 main {
-    padding: 20px; /* Ajusta el padding si es necesario */
-    max-width: 800px; /* Ajusta el ancho máximo del contenedor si es necesario */
-    width: 100%; /* Asegura que el main ocupe todo el ancho disponible */
+    padding: 20px; 
+    max-width: 800px; 
+    width: 100%; 
     box-sizing:content-box;
 
     h1 {
-        margin-bottom: 0px; /* Espacio debajo del título */
+        margin-bottom: 0px; 
         margin-top: 170px;
     }
     p {
-        margin-bottom: 10px; /* Espacio debajo del párrafo */
-        line-height: 1.3; /* Altura de la línea para mejorar la legibilidad */
-        text-align: center; /* Alinea el texto a la izquierda */
+        margin-bottom: 10px;
+        line-height: 1.3; 
+        text-align: center; 
         margin-bottom: 30px;
     }
 }
 
 footer {
     background-color: #5c4938;
-    padding: 20px; /* Ajusta el padding del footer si es necesario */
+    padding: 20px; 
     margin-top: 80px;
     
     div {
-        display: flex; /* Usa flexbox para alinear los párrafos en línea */
-        justify-content: space-between; /* Espacio entre los párrafos */
-        align-items: center; /* Alinea los párrafos verticalmente al centro */
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center; 
     }
     p {
-        margin: 0; /* Elimina márgenes de los párrafos */
-        padding: 0 10px; /* Espacio horizontal entre los párrafos */
+        margin: 0; 
+        padding: 0 10px; 
     }
     a{
         text-decoration: none;
@@ -70,20 +77,19 @@ footer {
 }
 
 .boton-borde {
-    display: inline-block; /* Asegura que el botón se comporte como un botón en línea */
-    padding: 10px 20px; /* Ajusta el padding del botón */
-    border: 2px solid #000; /* Ajusta el borde del botón */
-    background-color: transparent; /* Fondo transparente para el botón */
-    color: #000; /* Color del texto del botón */
-    text-decoration: none; /* Elimina el subrayado del enlace en el botón */
-    cursor: pointer; /* Cambia el cursor a una mano al pasar sobre el botón */
+    padding: 10px 20px; 
+    border: 2px solid #000; 
+    background-color: transparent; 
+    color: #000; 
+    text-decoration: none; 
+    cursor: pointer; 
     width: 450px;
+    margin-bottom: 5px;
 }
 
-/* Efecto hover */
 .boton-borde:hover {
-    background-color: #6d5641; /* Cambia el fondo a negro */
-    color: #fff; /* Cambia el color del texto a blanco */
+    background-color: #6d5641; 
+    color: #fff; 
 }
 
 #carpeta-de-fotos{
@@ -104,8 +110,7 @@ footer {
     flex-basis: 200px;
     flex-grow: 1;
     margin-bottom: 1rem;
-    transition: 200ms;
-    box-shadow: 0px 0px 2px 2px rgb(56, 54, 54);
+    box-shadow: 0px 0px 2px 2px rgb(62, 59, 59);
     background-color: #6d5444;
     
 }
@@ -124,6 +129,43 @@ h2{
     text-align: center;
 }
 
+
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block; 
+    margin-bottom: 10px; 
+    font-weight: bold;
+    font-size: 16px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #5c4938;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e2e26;
+}
+
+#mensaje-exito {
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
 
 
 
